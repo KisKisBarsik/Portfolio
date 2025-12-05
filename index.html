@@ -1,46 +1,61 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="no">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website</title>
-    <link rel="shortcut icon" href="https://cdn-icons-png.flaticon.com/512/6361/6361475.png">
+    <title>Portefølje Nettside</title>
+    <link rel="shortcut icon" href="./CSS/Icons/small website icon.png">
     <link rel="stylesheet" href="./CSS/homeWebsite.css">
 </head>
 <body>
     
-    <header>
-        <nav class="navBar">
-            <div class="devideNav">
-                <div class="logo"><a href="./index.html">Portfolio</a></div>
+    <div class="mørkGlassEffekt">
 
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Projects</a></li>
-                    <li><a href="">About Me</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
+        <header>
+            <nav class="navBar">
+                <div class="navigasjonsfeltskiller">
+                    <div class="logoDiv">
+                        <a href="./index.html" class="logo">Portefølje</a>
+                    </div>
+
+                    <ul>
+                        <li><a href="">Hjem</a></li>
+                        <li><a href="">Prosjekter</a></li>
+                        <li><a href="">Om meg</a></li>
+                        <li><a href="">Kontakt</a></li>
+                    </ul>
+                </div>
+
+                <div class="søkBar">
+                    <label>
+                        <input type="text" name="søkInput" id="søkBarInput" placeholder="Søk...">
+                    </label>
+
+                    <button id="søkButton">
+                        <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="35" height="35" viewBox="0 0 50 50" class="søkIcon">
+                            <path d="M 21 3 C 11.621094 3 4 10.621094 4 20 C 4 29.378906 11.621094 37 21 37 C 24.710938 37 28.140625 35.804688 30.9375 33.78125 L 44.09375 46.90625 L 46.90625 44.09375 L 33.90625 31.0625 C 36.460938 28.085938 38 24.222656 38 20 C 38 10.621094 30.378906 3 21 3 Z M 21 5 C 29.296875 5 36 11.703125 36 20 C 36 28.296875 29.296875 35 21 35 C 12.703125 35 6 28.296875 6 20 C 6 11.703125 12.703125 5 21 5 Z"></path>
+                        </svg>
+                    </button>
+                </div>
+            </nav>
+        </header>
+
+        <section class="introduksjon">
+            <div class="introduksjonDiv">
+                <img src="./CSS/Images/autor-sImage.jpg" alt="Bilde av forfatteren class="forfatterensBilde">
+                <div class="splittingAvIntrDiv">
+                    <h1 class="forfatterensNavn">Oleksandr Chornyi</h1>
+                    <p class="forfatterensPosisjon">VG2-elev</p>
+                    <p class="introduksjonTekst">Hei, jeg heter Oleksandr Chornyi. Jeg er en VG2-elev på informasjonsteknologi linja ved Røyken videregående skole, og i denne porteføljen vil jeg gjerne presentere noen av prosjektene mine. Du finner dem ved å klikke på prosjekter i navigasjonsfeltet. Du finner også annen informasjon som kan være nyttig i navigasjonsfeltet.</p>
+                </div>
             </div>
+        </section>
 
-            <div>
-                <label>
-                    <input type="text" name="searchBar" id="searchBar">
-                </label>
+        <footer>
+            
+        </footer>
 
-                <button>
-                    <img src="" alt="Search icon">
-                </button>
-            </div>
-        </nav>
-    </header>
-
-    <section>
-
-    </section>
-
-    <footer>
-        
-    </footer>
+    </div>
 
 </body>
 </html>

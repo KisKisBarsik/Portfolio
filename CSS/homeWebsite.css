@@ -4,3 +4,171 @@
     padding: 0;
     margin: 0;
 }
+
+body {
+    background: url(./Background/Dark\ Blue\ background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    perspective: 800px;
+}
+
+.mørkGlassEffekt {
+    width: 100%;
+    height: 100%;
+    background: -webkit-linear-gradient(45deg, rgba(0, 0, 0, 0.4));
+}
+
+/* Header */
+
+header {
+    display: flex;
+    flex-direction: row;
+    background: -webkit-linear-gradient(45deg, rgba(0,0,0,0.5));
+    padding: 20px 40px 20px 40px;
+}
+
+/* Navigation bar */
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.navigasjonsfeltskiller {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.logo {
+    font-size: 35px;
+    text-decoration: none;
+    color: rgb(43, 43, 255);
+    margin: 0px 15px 0px 0px;
+}
+
+.navigasjonsfeltskiller ul {
+    display: flex;
+    flex-direction: row;
+    margin: 2.5px 0px 0px 0px;
+}
+
+.navigasjonsfeltskiller ul li {
+    list-style: none;
+    margin: 0px 20px 0px 20px;
+}
+
+.navigasjonsfeltskiller ul li a {
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+}
+
+/* Navigation bar (Search bar) */
+
+.søkBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid white;
+    border-radius: 30px;
+    padding: 5px 5px 5px 10px;
+}
+
+#søkBarInput {
+    width: 350px;
+    background-color: rgba(0,0,0,0);
+    font-size: 20px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+    padding: 7px 10px 7px 10px;
+}
+
+#søkButton {
+    background-color: rgb(43, 43, 255);
+    border: 2px solid rgb(43, 43, 255);
+    border-radius: 30px;
+    outline: none;
+    padding: 0.5px 2px 0.5px 2px;
+}
+
+#søkButton:hover {
+    background-color: rgb(57, 57, 255);
+    border: 2px solid rgb(57, 57, 255);
+}
+
+.søkIcon {
+    fill: white;
+}
+
+/* Section with introdution */
+
+.introduksjon {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 900px;
+}
+
+.introduksjonDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 950px;
+    height: 500px;
+    background-color: rgb(22, 22, 22);
+    
+    border-bottom: 6px solid rgb(57, 57, 255);
+    border-right: 6px solid rgb(57, 57, 255);
+
+    border-radius: 5px 30px 5px 30px;
+    
+    transform: rotateY(-20deg) rotateX(15deg);
+    transform-style: preserve-3d;
+
+    padding: 0px 40px 0px 40px;
+    margin: 150px 0px 0px 0px;
+}
+
+.forfatterensBilde {
+    width: 300px;
+    height: 300px;
+    /* border: 2px solid rgb(57, 57, 255); */
+    border-bottom: 4px solid rgb(57, 57, 255);
+    border-left: 4px solid rgb(57, 57, 255);
+    border-radius: 30px;
+    margin: 0px 40px 0px 0px;
+    transform-style: preserve-3d;
+}
+
+.splittingAvIntrDiv {
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.forfatterensNavn {
+    font-size: 30px;
+    margin: 0px 0px 18px 0px;
+}
+
+.forfatterensPosisjon {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 0px 0px 6px 0px;
+}
+
+.introduksjonTekst {
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+/* Section with small Guide */
+
